@@ -1,0 +1,198 @@
+footer{
+    background-color: lightgray;
+}
+
+#seccion{
+    padding-bottom: 5%;
+}
+
+li{
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 30px 60px;
+    position: absolute;
+    left: 0;
+    top: 0%;
+    right: 0%;
+}
+
+.header a img{
+    width: 40px;
+    padding-left: 5px;
+   
+}
+
+#imgac{
+    display: block;
+    height: 50vh;
+    width: auto;
+
+}
+#fdsac{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-align: justify;
+}
+
+#expac{
+    padding-top: 1.5rem;
+}
+
+.imgpp{
+    width: 300;
+    height: 250;
+    display: block;
+}
+
+#imgc{
+    width: 150;
+    height: 130;
+}
+
+.img1{
+    
+    display: block;
+    height: 50vh;
+    width: auto;
+    margin: 15vh auto;
+    }
+    .img1 .img12{
+        margin: 10px; 
+        border: 10px solid rgb(168, 165, 165); 
+
+}
+
+.img12{
+    display: block;
+    height: 50vh;
+    width: auto;
+
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+}
+#i1{
+    
+    background-color: white;
+    border: 2px solid rgb(0, 131, 218);
+    color: black;
+    padding: 10px 25px;
+    font-size: 20px;
+    -moz-transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    -ms-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+#imgpg1, #imgpg2{
+    display: block;
+    height: 50vh;
+    width: auto;
+    padding-bottom: 20px;
+}
+
+#imgpg2{
+    display: block;
+    
+}
+
+#con1{
+    padding-bottom: 20px;
+}
+
+#t1pg{
+    padding-top: 10%;
+    padding-bottom: 20px;
+   
+
+}
+
+#i1:hover{
+    
+    background-color: rgb(0, 131, 218);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.header a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.header-right {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+    float: none;
+    }
+}
+
+.table th{
+    padding: 50 100 20 0;
+}
+
+.table thead th{
+    border-bottom: 2px solid black;
+}
+
+.table td, .table th{
+    padding: .75rem;
+    border: 1px solid black;
+}
+
+table th{
+    border: 1px solid black;
+}
+
+table tr{
+    border: 1px solid black;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#titulo1{
+
+    text-align: center;
+}

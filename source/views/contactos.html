@@ -1,0 +1,128 @@
+<html>
+    <%-include('partials/head.html');%>
+    <body class="u-body u-xl-mode">
+        <header>
+            <%-include('partials/navegacion.html');%>
+        </header>
+        <br><br><br><br><br>
+
+        <meta name="theme-color" content="#478ac9">
+        <meta property="og:title" content="Contact">
+        <meta property="og:type" content="website">
+      </head>
+
+        <section class="u-clearfix u-section-1" id="sec-ba4d">
+          <div class="u-clearfix u-sheet u-sheet-1">
+            <h4 class="u-text u-text-default u-text-1">Listado de contactos</h4>
+            <div class="u-expanded-width u-table u-table-responsive u-table-1">
+              <table class="u-table-entity">
+                <colgroup>
+                  <col width="25%">
+                  <col width="25%">
+                  <col width="25%">
+                  <col width="25%">
+                </colgroup>
+                <thead class="u-grey-50 u-table-header u-table-header-1">
+                  <tr style="height: 21px;">
+                    <th class="u-border-1 u-border-grey-50 u-table-cell">ID</th>
+                    <th class="u-border-1 u-border-grey-50 u-table-cell">Nombre</th>
+                    <th class="u-border-1 u-border-grey-50 u-table-cell">Domicilio</th>
+                    <th class="u-border-1 u-border-grey-50 u-table-cell">Teléfono</th>
+                  </tr>
+                </thead>
+                <tbody class="u-table-body">
+                  <tr style="height: 341px;">
+                    <td class="u-border-2 u-border-grey-40 u-table-cell"></td>
+                    <td class="u-border-2 u-border-grey-40 u-table-cell"></td>
+                    <td class="u-border-2 u-border-grey-40 u-table-cell"></td>
+                    <td class="u-border-2 u-border-grey-40 u-table-cell"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <button href="" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-6 u-btn-1">Limpiar</button>
+            <button href="" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-6 u-btn-2">Ver</button>
+          </div>
+        </section>
+        <section class="u-align-center u-clearfix u-section-2" id="sec-c686">
+          <div class="u-clearfix u-sheet u-sheet-1">
+            <h4 class="u-text u-text-default u-text-1">Agregar un nuevo contacto<br>
+            </h4>
+            <div class="u-expanded-width u-form u-form-1">
+              <form action="#" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 10px;">
+                
+                
+                <div class="u-form-group u-form-name u-form-partition-factor-3 u-label-top">
+                  <label for="name-7338" class="u-label">Nombre</label>
+                  <input type="text" placeholder="Introduzca un nombre" id="name-7338" name="nombre" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white u-input-1" required="">
+                </div>
+                <div class="u-form-group u-form-partition-factor-3 u-label-top">
+                  <label for="email-7338" class="u-label">Domicilio</label>
+                  <input type="text" placeholder="Introduzca un domicilio" id="email-7338" name="dom" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white u-input-2" required="required">
+                </div>
+                <div class="u-form-group u-form-partition-factor-3 u-label-top">
+                  <label for="message-7338" class="u-label">Teléfono</label>
+                  <input placeholder="Ingrese un número telefónico" rows="4" cols="50" id="message-7338" name="tel" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="required" type="text">
+                </div>
+                <div class="u-align-right u-form-group u-form-submit u-label-top">
+                  <input type="submit" value="submit" class="u-form-control-hidden">
+                  <button href="" class="u-btn u-btn-submit u-button-style">Agregar</button>
+                </div>
+                
+                <input type="hidden" value="" name="recaptchaResponse">
+              </form>
+            </div>
+            <h4 class="u-text u-text-default u-text-2">Mostrar y modificar contacto</h4>
+            <div class="u-form u-form-2">
+              <form action="#" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form-1" style="padding: 10px;">
+                
+                
+                <div class="u-form-group u-form-name">
+                  <label for="name-af9f" class="u-label">ID</label>
+                  <input type="text" placeholder="Introduzca un ID" id="name-af9f" name="id" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
+                </div>
+                <div class="u-align-center u-form-group u-form-submit">
+                  <button href="" class="u-btn u-btn-submit u-button-style">Buscar<br>
+                  </button>
+                  <input type="submit" value="submit" class="u-form-control-hidden">
+                </div>
+                
+                <input type="hidden" value="" name="recaptchaResponse">
+              </form>
+            </div>
+          </div>
+        </section>
+        <section class="u-align-center u-clearfix u-section-3" id="sec-a661">
+          <div class="u-clearfix u-sheet u-sheet-1">
+            <div class="u-expanded-width u-table u-table-responsive u-table-1">
+              <table class="u-table-entity u-table-entity-1">
+                <colgroup>
+                  <col width="33.3%">
+                  <col width="33.3%">
+                  <col width="33.400000000000006%">
+                </colgroup>
+                <thead class="u-grey-50 u-table-header u-table-header-1">
+                  <tr style="height: 21px;">
+                    <th class="u-border-1 u-border-grey-50 u-table-cell">Nombre</th>
+                    <th class="u-border-1 u-border-grey-50 u-table-cell">Domicilio</th>
+                    <th class="u-border-1 u-border-grey-50 u-table-cell">Teléfono<br>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="u-table-body">
+                  <tr style="height: 75px;">
+                    <td class="u-border-2 u-border-grey-40 u-table-cell"></td>
+                    <td class="u-border-2 u-border-grey-40 u-table-cell"></td>
+                    <td class="u-border-2 u-border-grey-40 u-table-cell"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+    
+        </html>
+
+        <%-include('partials/footer.html');%>
+    </body>
+</html>
+
